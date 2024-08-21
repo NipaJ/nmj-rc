@@ -1,0 +1,9 @@
+[submodule "vimfiles/pack/default/start/rust.vim"]
+	path = vimfiles/pack/default/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
+[submodule "vimfiles/pack/default/start/nordtheme"]
+	path = vimfiles/pack/default/start/nordtheme
+	url = https://github.com/nordtheme/vim.git
+[submodule "vimfiles/pack/default/start/lightline.vim"]
+	path = vimfiles/pack/default/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
