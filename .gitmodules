@@ -7,3 +7,6 @@
 [submodule "vimfiles/pack/default/start/lightline.vim"]
 	path = vimfiles/pack/default/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
+[submodule "desktop/nord-windows-terminal"]
+	path = desktop/nord-windows-terminal
+	url = https://github.com/thismat/nord-windows-terminal.git

@@ -43,6 +43,10 @@ if has("gui_running")
 
     set termguicolors
     colorscheme nord
+
+    let g:lightline = {
+          \ 'colorscheme': 'nord',
+          \ }
 endif
 
 " C Language
