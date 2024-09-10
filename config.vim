@@ -8,14 +8,6 @@ if $VisualStudioVersion == ""
     set fileencoding=utf-8
     set fileencodings=ucs-bom,utf8,prc
     set autoread
-    colorscheme nord
-
-    " Status bar
-    set laststatus=2
-    set noshowmode
-    let g:lightline = {
-          \ 'colorscheme': 'nord',
-          \ }
 
     " Indendation
     set smarttab
@@ -35,6 +27,17 @@ if $VisualStudioVersion == ""
         set guioptions-=r
         set lines=50 columns=150
     endif
+
+    " Schema
+    colorscheme nord
+    set termguicolors
+
+    " Status bar
+    set laststatus=2
+    set noshowmode
+    let g:lightline = {
+          \ 'colorscheme': 'nord',
+          \ }
 endif
 
 set number
